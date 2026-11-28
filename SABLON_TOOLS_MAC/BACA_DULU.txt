@@ -1,0 +1,46 @@
+SABLON TOOLS - PASANG DI MAC
+============================
+
+1. Ekstrak file zip (klik dua kali). Jangan menjalankan dari dalam pratinjau zip.
+2. Klik KANAN file "Install.command" > pilih "Open" > klik "Open" lagi.
+   (Cara ini hanya perlu sekali. Klik dua kali biasa akan ditolak macOS.)
+3. Kalau diminta password, ketik password Mac Anda. Huruf tidak tampil saat mengetik,
+   itu normal. Tekan Enter.
+4. Tunggu sampai ada tulisan "Selesai", lalu tutup jendela Terminal.
+5. Tutup dan buka ulang Photoshop.
+6. Window > Actions. Klik menu panel (garis tiga di pojok kanan atas panel),
+   pilih SABLON TOOLS di daftar paling bawah.
+7. Klik menu panel lagi, pilih Button Mode. Lima tombol akan muncul.
+
+Script yang sama juga ada di menu File > Scripts sebagai cadangan.
+
+
+KALAU ADA MASALAH
+-----------------
+"Tidak bisa dibuka karena dari pengembang tidak dikenal" / tidak terjadi apa-apa:
+   Buka Terminal, ketik:   xattr -dr com.apple.quarantine
+   (beri satu spasi setelahnya), seret folder hasil ekstrak ke jendela Terminal,
+   tekan Enter. Lalu ulangi langkah 2.
+
+"Permission denied" / file tidak bisa dijalankan:
+   Buka Terminal, ketik:   chmod +x
+   (beri satu spasi setelahnya), seret file Install.command ke jendela Terminal,
+   tekan Enter. Lalu ulangi langkah 2.
+
+Photoshop tidak ditemukan / Action gagal disalin:
+   Di Photoshop: panel Actions > menu panel > Load Actions, lalu pilih file
+   /Users/Shared/SablonTools/SABLON_TOOLS.atn
+
+Tombol muncul tetapi tidak menjalankan apa-apa:
+   Pakai menu File > Scripts (script yang sama), lalu kirim file
+   SablonTools-install.log (ada di folder Home Anda) ke pembuat paket ini.
+
+Script terpasang di /Users/Shared/SablonTools/Scripts. Jangan dipindah atau diganti
+namanya, karena alamat ini tertulis di dalam Action.
+
+
+COPOT / UPDATE
+--------------
+Copot total: klik kanan Uninstall.command > Open. Semua file Sablon Tools terhapus
+(Action, script, folder /Users/Shared/SablonTools, dan catatan pemasangan).
+Update: cukup jalankan Install.command dari paket baru; sisa script lama dibuang otomatis.

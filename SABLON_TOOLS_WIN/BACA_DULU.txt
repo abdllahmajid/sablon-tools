@@ -1,0 +1,15 @@
+SABLON TOOLS - PASANG DI WINDOWS (tanpa installer .exe)
+
+1. Ekstrak zip (klik kanan > Extract All). Jangan jalankan dari dalam zip.
+2. Klik kanan Install.bat > Run as administrator.
+3. Tunggu tulisan "Selesai", lalu buka ulang Photoshop.
+4. Window > Actions > menu panel > SABLON TOOLS > Button Mode.
+
+Kalau Windows menampilkan peringatan SmartScreen: More info > Run anyway.
+Kalau Action tidak terdeteksi: di Photoshop, panel Actions > menu panel >
+Load Actions > pilih C:\SablonTools\SABLON_TOOLS.atn
+Script yang sama juga bisa dijalankan dari File > Scripts > Browse
+(C:\SablonTools\Scripts).
+
+Copot total: klik kanan Uninstall.bat > Run as administrator (hapus Action, script, dan C:\SablonTools).
+Update: jalankan Uninstall.bat dulu (opsional), lalu Install.bat dari paket baru. Install.bat juga otomatis membuang sisa script lama.
